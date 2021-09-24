@@ -62,12 +62,12 @@ a {
 
 .imgPiso {
     width: 1800px;
-    height: 850px;
+    height: 880px;
 }
 
 .imgPlano {
     width: 2040px;
-    height: 1000px;
+    height: 1080px;
 }
 
 .background {
@@ -119,7 +119,7 @@ a {
 .imgForeground_piso {
     position: relative;
     z-index: 90;
-    top: 15% !important;
+    top: 18% !important;
     bottom: 0;
     right: -50px !important;
     transform: translateY(5px) scale(0.85);
