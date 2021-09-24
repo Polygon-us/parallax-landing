@@ -36,13 +36,13 @@ a {
 }
 
 .imgBg {
-    width: 1920px;
+    width: 1980px;
     height: 1041px;
 }
 
 .imgCloud {
-    width: 700px;
-    height: 450px;
+    width: 1024px;
+    height: 480px;
 }
 
 .imgMontains {
@@ -51,23 +51,23 @@ a {
 }
 
 .imgMeteoro {
-    width: 1080px;
-    height: 780px;
+    width: 840px;
+    height: 650px;
 }
 
 .imgArboles {
-    width: 1852px;
-    height: 685px;
+    width: 1920px;
+    height: 700px;
 }
 
 .imgPiso {
-    width: 1920px;
-    height: 896px;
+    width: 1800px;
+    height: 850px;
 }
 
 .imgPlano {
-    width: 1920px;
-    height: 970px;
+    width: 2040px;
+    height: 1000px;
 }
 
 .background {
@@ -77,20 +77,21 @@ a {
 
 .imgMiddle_cloud {
     position: relative;
-    z-index: 50;
+    z-index: 40;
     width: 40% !important;
-    top: 0 !important;
-    bottom: 100% !important;
-    left: 65% !important;
+    top: 12% !important;
+    right: 0 !important;
+    left: 48% !important;
+    bottom: 20% !important;
 }
 
 .imgMiddle_montain {
     position: relative;
-    z-index: 40;
+    z-index: 30;
     width: 70%;
-    top: 20% !important;
+    top: 3% !important;
     right: 0;
-    left: 20%;
+    left: 2% !important;
     bottom: 0;
     transform: translateZ(2px) scale(0.75);
     transform-origin: 50%;
@@ -100,9 +101,9 @@ a {
     position: relative;
     z-index: 50;
     width: 100%;
-    top: 30% !important;
+    top: 25% !important;
     bottom: 0 !important;
-    left: -13% !important;
+    left: -20% !important;
     perspective: 20px !important;
     perspective-origin: left !important;
 }
@@ -110,7 +111,7 @@ a {
 .imgMiddle_arboles {
     position: relative;
     z-index: 40;
-    top: 35% !important;
+    top: 38% !important;
     left: 0;
     bottom: 100% !important;
 }
@@ -120,6 +121,7 @@ a {
     z-index: 90;
     top: 15% !important;
     bottom: 0;
+    right: -50px !important;
     transform: translateY(5px) scale(0.85);
     transform-origin: 50%;
 }
